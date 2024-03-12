@@ -1,18 +1,14 @@
 PROGRAM MyProgramMain
     VAR_EXTERNAL
-        c : INT;
-        d : INT;
-        conflitto : BOOL;
+        //c : INT;
+        //d : INT;
+        //conflitto : BOOL;
+        myRealOutput : INT;
     END_VAR
 
     VAR
-
     END_VAR
 
-    VAR_TEMP
+    myRealOutput := myRealOutput + 1;
 
-    END_VAR
-
-    // code here
-    ;
 END_PROGRAM

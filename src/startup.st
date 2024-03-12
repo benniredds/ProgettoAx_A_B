@@ -1,16 +1,8 @@
 PROGRAM MyProgramStartup
     VAR_EXTERNAL
-
+        myOutput : BOOL;
     END_VAR
 
-    VAR
+    myOutput := TRUE;
 
-    END_VAR
-
-    VAR_TEMP
-
-    END_VAR
-
-    // code here
-    ;
 END_PROGRAM
