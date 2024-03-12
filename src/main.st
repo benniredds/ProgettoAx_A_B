@@ -1,6 +1,7 @@
 PROGRAM MyProgramMain
     VAR_EXTERNAL
         c : INT;
+        d : INT;
     END_VAR
 
     VAR
