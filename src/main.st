@@ -3,6 +3,7 @@ PROGRAM MyProgramMain
         c : INT;
         d : INT;
         conflitto_int: INT;
+        conflitto : BOOL;
     END_VAR
 
     VAR
