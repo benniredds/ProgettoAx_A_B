@@ -1,8 +1,10 @@
-CONFIGURATION MyConfiguration
-    TASK Main(Interval := T#1000ms, Priority := 1);
-    PROGRAM P1 WITH Main: MyProgram;
+USING Siemens.Simatic.S71500.Tasks;
 
-    VAR_GLOBAL
+CONFIGURATION Cfg
+    TASK MyStartupTask : Startup;
+    TASK MyProgramCycleTask : ProgramCycle;
 
-    END_VAR
+    PROGRAM P1 WITH MyStartupTask : MyProgramStartup;
+    PROGRAM P2 WITH MyProgramCycleTask : MyProgramMain;
+
 END_CONFIGURATION

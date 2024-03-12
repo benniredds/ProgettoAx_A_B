@@ -1,4 +1,4 @@
-PROGRAM MyProgram
+PROGRAM MyProgramMain
     VAR_EXTERNAL
 
     END_VAR
