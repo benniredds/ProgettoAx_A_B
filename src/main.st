@@ -2,6 +2,7 @@ PROGRAM MyProgramMain
     VAR_EXTERNAL
         c : INT;
         d : INT;
+        conflitto_int: INT;
     END_VAR
 
     VAR
